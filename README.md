@@ -1,3 +1,3 @@
-# SwiftUIExtensions
+# SwiftUI Extensions
 
-A description of this package.
+A collection of extensions and utilities for SwiftUI.
