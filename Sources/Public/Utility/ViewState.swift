@@ -45,3 +45,5 @@ public extension ViewState where T: Collection {
     }
 
 }
+
+extension ViewState: Equatable where T: Equatable {}
