@@ -1,7 +1,6 @@
 import SwiftUI
 
 /// A List with a plain style, no separators, no row background and no row insets.
-@available(macOS 13, *)
 public struct PlainList<Content: View> {
 
     // MARK: - Typealiases
@@ -26,7 +25,6 @@ public struct PlainList<Content: View> {
 
 // MARK: - View
 
-@available(macOS 13, *)
 extension PlainList: View {
 
     public var body: some View {
@@ -44,7 +42,6 @@ extension PlainList: View {
 
 // MARK: - PreviewProvider
 
-@available(macOS 13, *)
 struct PlainListPreviews: PreviewProvider {
 
     static var previews: some View {
