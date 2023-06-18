@@ -11,7 +11,7 @@ env:
 jobs:
   run-tests-and-upload-coverage:
     name: "Run Tests and Upload Coverage"
-    runs-on: macos-12
+    runs-on: macos-13
     
     strategy:
       matrix:
