@@ -1,11 +1,11 @@
-// swift-tools-version: 5.5
+// swift-tools-version: 5.7
 import PackageDescription
 
 let package = Package(
     name: "SwiftUIExtensions",
     platforms: [
         .iOS(.v15),
-        .macOS(.v12),
+        .macOS(.v13),
         .macCatalyst(.v15),
         .tvOS(.v15),
         .watchOS(.v8)
